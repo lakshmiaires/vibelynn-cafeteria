@@ -1,0 +1,116 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Body Background */
+body {
+  background-color: #fff8f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  border-bottom: 5px solid #ffb6b9;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+/* Menu Section */
+.menu {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.menu h2 {
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  color: #e07a5f;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.item {
+  background: #fff;
+  border: 2px solid #e07a5f;
+  border-radius: 15px;
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
+
+.item h3 {
+  font-size: 1.4em;
+  color: #3d405b;
+}
+
+.item p {
+  color: #6d6875;
+}
+
+/* Celebrate Section */
+.celebrate {
+  background-color: #ffe5ec;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.celebrate h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #c9184a;
+}
+
+.celebrate p {
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  color: #6a2135;
+}
+
+.celebrate button {
+  padding: 10px 20px;
+  background-color: #ff758f;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.celebrate button:hover {
+  background-color: #ff4d6d;
+}
+
+/* Footer */
+.footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.9em;
+}
